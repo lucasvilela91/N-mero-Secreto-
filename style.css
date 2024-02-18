@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+:root {
+    --font-family: "Hanken Grotesk", sans-serif;
+    --bg-color: #040405;
+    --primary-color: #ffffff;
+    --highlight-color: #ff0074;
+    --hover: #FF479A;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+.destacado {
+    color: var(--highlight-color);
+}
+
+.destacadoNumero {
+    color: var(--highlight-color);
+    font-weight:600;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 200;
+    margin-top: 20px;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 40px;
+    font-weight: 300;
+}
+
+.box{
+    border: 2px solid var(--highlight-color);
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
+}
+
+.btn-jogar {
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 1.2em;
+    padding: 15px;
+    border: 0;
+    background: var(--highlight-color);
+    color: var(--primary-color);
+    border-radius: 8px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+
+}
+
+.btn-jogar:hover{ 
+    background-color:var(--hover);
+    transform: translateY(-3px);
+}
